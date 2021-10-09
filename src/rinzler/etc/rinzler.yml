@@ -1,0 +1,8 @@
+---
+actor:
+  name: rinzler
+  host: 0.0.0.0
+  port: 19981
+  tron_host: localhost
+  tron_port: 6093
+  log_dir: /data/logs/actors/rinzler
