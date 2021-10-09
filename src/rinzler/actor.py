@@ -10,17 +10,12 @@ from __future__ import annotations
 
 import os
 
-from typing import TypeVar
-
 from clu.legacy import LegacyActor
 
 from rinzler import __version__
 
 
 __all__ = ["RinzlerActor"]
-
-
-T = TypeVar("T", bound="RinzlerActor")
 
 
 class RinzlerActor(LegacyActor):
